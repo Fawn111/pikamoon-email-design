@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikamoon Email Design</title>
+    <style>
+
+        body{
+            margin: 0px;
+            padding: 0pc;
+        }
+        .container{
+        margin: 0;
+        background-color:  black;
+        width: 600px;
+        max-width: 50%;
+        margin: 0 auto;
+        display: block;
+        }
+
+        .section1{
+        background-image: url(./imgs/banner_3.png);
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 337px;
+        background-size: contain;
+        }
+
+        .section3{
+            background-image: url(./imgs/Mainss_1.png);
+            background-repeat: no-repeat;
+            width: 600px;
+            height: 1500px;
+            margin-top: 0px;
+        }
+
+        .logo{
+            display: flex;
+            margin-left: 33px;
+        }
+        .logo img{
+            width: 24px;
+            height: 22px;
+            margin-top: 13px;
+        }
+        .logo h2{
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 19.18px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            margin-left: 5px;
+        }
+        .socialicon{
+            width: 10.4px;
+            height: 10.4px;
+            top: 10px;
+            left: 554.21px;
+            gap: 0px;
+            padding-left: 6px;
+            opacity: 0px;
+
+        }
+
+        .icons{
+            margin-left: 300px;
+            width: 200.61px;
+            height: 10.4px;
+            margin-top: 13px;
+            left: 432px;
+            padding: 0px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+        .nav{
+            display: flex;
+        }
+
+        .button_join{
+            width: 113px;
+            height: 28.99px;
+            margin-left: 244px;
+            gap: 0px;
+            border-radius: 5px 0px 0px 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+
+        }
+
+        .section2 h2{
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 38.36px;
+            letter-spacing: -0.02em;
+            color: white;
+            width: 204px;
+            height: 76px;
+            margin-top: 12px;
+            margin-left: 198px;
+            gap: 0px;
+            opacity: 0px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .section2 h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 76px;
+            height: 18.3px;
+            margin-left: 262px;
+            border-radius: 20px;
+            border-style: solid;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            padding-top: 2px;
+            text-align: center;
+            color: white;
+        }
+        
+        .section2 h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 22.5px;
+            text-align: center;
+            width: 200px;
+            height: 46px;
+            margin-left: 200px;
+            color: white;
+            margin-top: 0px;
+        }
+        
+        .heading h2{
+            width: 200px;
+            margin-top: 0px;
+            padding-top: 40px;
+            height: 31px;
+            margin-left: 222px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 31.17px;
+            letter-spacing: 0.050em;
+            color: white;
+        }
+
+        .heading p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color:  #7D85BB;
+            width: 319px;
+            height: 47px;
+            margin-left: 141px;
+        }
+
+        .icons2{
+            display: flex;
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 70px;
+        }
+
+        .icons_2{
+            width: 64px;
+            height: 64px;
+        }
+
+        .div_gap{
+            margin-left: 50px;
+        }
+
+
+
+        .headingicons{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: white;
+            text-align: center;
+        }
+
+        .september h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: white;
+            margin-left: 35px;
+        }
+
+        .september p{
+            margin-left: 35px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #7D85BB;
+        }
+
+        .september h1{
+            margin-left: 35px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 43.15px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color:#FFBC00;
+            ;
+
+        }
+
+        .aaa_heading{
+            margin-left: 35px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            line-height: 31.17px;
+            letter-spacing: -0.02em;
+            text-align: left;
+
+        }
+        
+        .list{
+            margin-left: 11px;
+        }
+
+        .list ul li{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #7D85BB;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            text-align: left;
+
+        }
+
+        .button_spika{
+            width: 256px;
+            height: 39px;
+            margin-left: 174px;
+            margin-top: 20px;
+        }
+
+        .symbol{
+            width: 67px;
+            height: 58px;
+        }
+
+        .team_strength{
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .team{
+            margin-left: 70px;
+            margin-right: 50px;
+            text-align: center;
+        }
+         
+        .strength{
+            text-align: center;
+        }
+
+        
+        .team h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+            margin-bottom: 3px;
+        }
+
+        .strength h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+            width: 222px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+
+        }
+
+        .team p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #7D85BB;
+            width: 200px;
+            height: 95px;
+        }
+
+        .strength p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #7D85BB;
+            width: 200px;
+            height: 95px;
+        }
+
+        .trade_spike{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 38.36px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: white;
+
+        }
+
+        .spika_icons{
+            width: 170px;
+            height: 97px;
+            margin-left: 6px;
+        }
+
+        .spika_main_icons{
+            margin-left: 32px;
+        }
+
+        .lastpart{
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .logo_lastpart{
+            display: flex;
+            margin-left: 33px;
+            margin-top: 7px;
+        }
+        .logo_lastpart img{
+            width: 24px;
+            height: 22px;
+            margin-top: 13px;
+        }
+        .logo_lastpart h2{
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 19.18px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            margin-left: 5px;
+        }
+        .lastpart_para{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #7D85BB;
+            margin-left: 50px;
+        }
+
+        .footer{
+            background-color: #090B20;
+            width: 600px;
+            height: 60px;
+            display: flex;
+        }
+
+        #here{
+            color: #FFBC00;
+            text-decoration: none;
+        }
+
+
+
+        .copyrights p{
+            padding-top: 17px;
+            margin-left: 40px;
+            margin-top: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #E3E3E3;
+        }
+
+        .footer_list ul{
+            display: flex;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            list-style-type: none;
+        }
+
+        .footer_list ul li{
+            margin-right: 8px;
+        }
+
+        .whitepaper{
+            color: #FCD74A;
+
+        }
+
+        @media only screen and (max-width: 430px) {
+            body{
+                background-color: black;
+            }
+            .container{
+                 margin: 0;
+                background-color:  black;
+                max-width: fit-content;
+                display: block;
+        }
+        .section1{
+        max-width: 100%;
+        height: 337px;
+        }
+
+        .section3{
+           max-width: 100%;
+            height: 1500px;
+        }
+
+        .footer{
+           max-width: 100%;
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+            <div class="container">
+                <div class="section1">
+                    <div class="nav">
+                        <div class="logo">
+                            <img src="./imgs/logo.png" alt="">
+                            <h2>Pikamoon</h2>
+                        </div>
+                        <div class="icons">
+                            <a href=""><img src="./imgs/x.png" alt="" class="socialicon"></a>
+                            <a href=""><img src="./imgs/discord.png" alt="" class="socialicon"></a>
+                            <a href=""><img src="./imgs/message.png" alt="" class="socialicon"></a>
+                            <a href=""><img src="./imgs/instagram.png" alt="" class="socialicon"></a>
+                            <a href=""><img src="./imgs/youtube.png" alt="" class="socialicon"></a>
+                            <a href=""><img src="./imgs/reddit.png" alt="" class="socialicon"></a>
+                            <a href=""><img src="./imgs/dino.png" alt="" class="socialicon"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="section2">
+                            <h1>Tagline</h1>
+                            <h2>The Pikaverse Dummy Text</h2>
+                            <h3>Maecenas malesuada portaLorem Ipsum has been the industry</h3>
+                            <a href=""><img src="./imgs/joinus_button.png" alt="" class="button_join"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section3">
+                    <div class="part1">
+                        <div class="heading">
+                            <h2>What  We Do</h2>
+                            <p>First, let’s reflect on what September had 
+                                in store for the Pikaverse…</p>
+                        </div>
+                        <div class="icons2">
+                            <div class="div_gap">
+                                <img src="./imgs/aaa_icon.png" alt="" class="icons_2">
+                                <h2 class="headingicons">AAA</h2>
+                            </div>
+                            <div class="div_gap">
+                                <img src="./imgs/arcade_icon.png" alt="" class="icons_2">
+                                <h2 class="headingicons">Arcade Games</h2>
+                            </div>
+                            <div  class="div_gap">
+                                <img src="./imgs/crypto.png" alt="" class="icons_2">
+                                <h2 class="headingicons">Crypto</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <div class="september">
+                            <h2>September 2024 has come to a close...</h2>
+                            <p>First, let’s reflect on what September had in store for the Pikaverse…</p> 
+                            <h1>A 30%+ PIKA PUMP</h1>
+                        </div>
+                        <div class="list_section">
+                            <div class="aaa_heading">
+                                <h2>Best AAA games</h2>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li>In period of ever-changing market sentiment & investor interest, PIKA’s valuation managed 30% over course of month. </li>
+                                    <li>In period of ever-changing market sentiment & investor interest, PIKA’s valuation managed grow over course of month. </li>
+                                    <li>This can only be attributed to our in-waiting AAA game, the ever-growing Pika Army, and the various other updates listed</li>
+                                    <li>We also must’ve forget contributions from our influencer friends, as continued KOL bullishnes something should never overlooked! </li>
+                                    <li>We also must’ve forget contributions from our influencer friends, as continued KOL bullishnes should never overlooked! </li>
+                                    <li>Visit <span id="here"><u><a href="">Here</a></u></span> to see what blockchain gamer Mareile XBT had to say about PIKA's potential.</li>
+                                </ul>
+                            </div>
+                            <a href=""><img src="./imgs/spika_button.png" alt="" class="button_spika"></a>
+                        </div>
+                        <div class="team_strength">
+                            <div class="team">
+                                <img src="./imgs/symbol_1.png" alt="" class="symbol">
+                                <h2>Our Team</h2>
+                                <p>We are constantly building… hence our constant content reveals. This time around, designers unveiled</p>
+                            </div>
+                            <div class="strength">
+                                <img src="./imgs/symbol_2.png" alt="" class="symbol">
+                                <h2>Our Strength</h2>
+                                <p>We are constantly building… hence our constant content reveals. This time around, designers unveiled</p>
+                            </div>
+                        </div>
+                        <div class="trade">
+                            <div class="trade_spike">
+                                <h2>TRADE $PIKA NOW</h2>
+                            </div>
+                            <div class="spika_main_icons">
+                                <img src="./imgs/bitget.png" alt="" class="spika_icons">
+                                <img src="./imgs/mexc.png" alt="" class="spika_icons">
+                                <img src="./imgs/uniwrap.png" alt="" class="spika_icons">
+                            </div>
+                        </div>
+                        <div class="lastpart">
+                            <div class="logo_lastpart">
+                                <img src="./imgs/logo.png" alt="">
+                                <h2>Pikamoon</h2>
+                            </div>
+                            <div class="lastpart_para">
+                                <p>We are constantly building… hence our constant </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="copyrights">
+                        <p>All other copyrights for Pikamoon</p>
+                    </div>
+                    <div class="footer_list">
+                        <ul>
+                            <li class="whitepaper">Whitepaper</li>
+                            <li>Privacy</li>
+                            <li>Audit</li>
+                            <li>Support Center</li>
+                            <li>News</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
